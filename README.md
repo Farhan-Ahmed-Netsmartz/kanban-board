@@ -100,3 +100,21 @@ kanbans and tasks. It consumes the REST API endpoints provided by
 *kanban-app*.
 
 It can be entered using link: **http://${IP_ADDRESS}:4200/**
+
+
+
+
+# --------------------------------------------------------------------------------------------
+
+# Steps to run Local Environment: 
+
+1. Clone Local branch: git clone --branch Local https://github.com/Farhan-Ahmed-Netsmartz/kanban-board.git
+2. Change directory to kanban board: cd kanban-board
+3. Run Docker compose file: docker-compose up -d
+4. Make changes in code: docker exec -it <container-id> sh
+5. See the changes inside container.
+6. Get out of container using ctrl + d.
+7. Now rebuild the docker-compose file: docker-compose build
+8. Now run the compose file: docker-compose up -d
+9. This will recreate the images that are changed and run them.
+10. Now the changes are reflecting on the browser.
