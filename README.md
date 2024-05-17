@@ -6,7 +6,7 @@ A Kanban Board is usually made of 3 columns - *TODO*, *InProgres*s & *Done*. In 
 
 As already stated this project is an implementation of such board and made of 3 separate Docker containers that holds:
 
-- PostgreSQL database
+- PostgreSQL database  
 - Java backend (Spring Boot)
 - Angular frontend
 
