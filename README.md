@@ -3,7 +3,7 @@
  is a simple implementation of a Kanban Board, a tool that helps visualize and manage work. Originally it wa  s first created in Toyota automotive, but nowadays it's widely used in software development.
 
 A Kanban Board is usually made of 3 columns - *TODO*, *InProgres*s & *Done*. In each column there are Post-it notes that represents task and their status.   
-
+ 
 As already stated this project is an implementation of such board and made of 3 separate Docker containers that holds:
  
 - PostgreSQL database    
