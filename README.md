@@ -8,7 +8,7 @@ As already stated this project is an implementation of such board and made of 3 
  
 - PostgreSQL database    
 - Java backend (Spring Boot)
-- Angular frontend
+- Angular frontend   
 
 The entry point for a user is a website which is available under the address: **http://${IP_ADDRESS}:4200/**
 
